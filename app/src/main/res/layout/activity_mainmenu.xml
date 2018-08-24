@@ -113,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Periks"
+            android:text="About"
             app:layout_constraintBottom_toBottomOf="parent" />
     </LinearLayout>
 
