@@ -1,9 +1,10 @@
 package h.tenia.humansmokingcapacity;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Hasil extends AppCompatActivity {
+public class Hasil extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

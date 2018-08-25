@@ -1,9 +1,10 @@
 package h.tenia.humansmokingcapacity;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Tentang extends AppCompatActivity {
+public class Tentang extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

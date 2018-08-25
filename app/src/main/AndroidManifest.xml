@@ -19,9 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Mainmenu" />
-        <activity android:name=".Periksa" />
+        <activity android:name=".Konsultasi" />
         <activity android:name=".Tentang" />
-        <activity android:name=".Hasil"></activity>
+        <activity android:name=".Hasil" />
+        <activity android:name=".Inputgejala"></activity>
     </application>
 
 </manifest>

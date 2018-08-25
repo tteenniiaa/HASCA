@@ -2,7 +2,6 @@ package h.tenia.humansmokingcapacity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -34,7 +33,7 @@ public class Mainmenu extends Activity {
             public void onClick(View argo) {
                 //TODO Auto-generated methot stub
 
-                Intent j = new Intent (getApplicationContext(), Periksa.class);
+                Intent j = new Intent (getApplicationContext(), Konsultasi.class);
                 startActivity(j);
             }
         }
