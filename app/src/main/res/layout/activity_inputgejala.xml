@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundwe"
+    android:background="@drawable/bggg"
     tools:context="h.tenia.humansmokingcapacity.Inputgejala">
 
     <TextView
@@ -40,6 +40,7 @@
         app:layout_constraintVertical_bias="0.026" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="116dp"
@@ -59,69 +60,69 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Batuk terus menerus atau semakin parah" />
+                android:text="Batuk terus menerus atau semakin parah"
+                android:textSize="14sp" />
 
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Batuk lebih dari 2 minggu" />
+                android:text="Batuk lebih dari 2 minggu"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Nyeri dada, bahu, punggung" />
+                android:text="Nyeri dada, bahu, punggung"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Perubahan warna pada dahak" />
+                android:text="Perubahan warna pada dahak"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Meningkatnya jumlah dahak" />
+                android:text="Meningkatnya jumlah dahak"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Dahak berdarah" />
+                android:text="Dahak berdarah"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Bunyi menciut-ciut saat bernafas" />
+                android:text="Bunyi menciut-ciut saat bernafas"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Radang yang kambuh" />
+                android:text="Radang yang kambuh"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Sulit bernafas / sesak" />
+                android:text="Sulit bernafas / sesak"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Nafas pendek atau tidak normal" />
+                android:text="Nafas pendek atau tidak normal"
+                android:textSize="14sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
-                android:text="Suara serak" />
+                android:text="Suara serak"
+                android:textSize="14sp" />
 
         </RadioGroup>
     </ScrollView>
@@ -129,11 +130,11 @@
     <LinearLayout
         android:id="@+id/btnlihathasil"
         android:layout_width="140dp"
-        android:layout_height="54dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="516dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/bg_button"
         android:gravity="center"
         android:orientation="vertical"
@@ -145,7 +146,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
