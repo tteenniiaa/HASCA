@@ -36,4 +36,12 @@ public class Inputgejala extends Activity {
         );
 
     }
+
+    public void SelectItem(View view) {
+
+
+    }
+
+    public void FinalSelection(View view) {
+    }
 }

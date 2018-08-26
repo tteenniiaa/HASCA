@@ -66,7 +66,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="casual"
             android:text="Selanjutnya"
-            app:layout_constraintBottom_toBottomOf="parent" tools:targetApi="jelly_bean"/>
+            app:layout_constraintBottom_toBottomOf="parent" />
 
 
     </LinearLayout>
