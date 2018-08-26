@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">humansmokingcapacity</string>
     <string name="periksa">Periksa</string>
+    <string name="title_message">Diagnosa Gejala</string>
+
+    <string name="GP01">Batuk terus menerus</string>
+    <string name="GP02">Batuk lebih dari 2 minggu</string>
+    <string name="GP03">Nyeri dada, bahu, punggung</string>
+    <string name="GP04">Perubahan warna pada dahak</string>
+    <string name="GP05">Meningkatnya jumlah dahak</string>
+    <string name="GP06">Dahak berdarah</string>
+    <string name="GP07">Bunyi menciut-ciut saat bernafas</string>
+    <string name="GP08">Radang yang kambuh</string>
+    <string name="GP09">Sulit bernafas / sesak</string>
+    <string name="GP10">Nafas pendek atau tidak normal</string>
+
 </resources>
