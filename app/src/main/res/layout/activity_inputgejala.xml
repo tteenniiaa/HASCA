@@ -93,6 +93,7 @@
                 android:id="@+id/CBGP01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:checked="false"
                 android:onClick="SelectItem"
                 android:text="Batuk terus menerus"
                 tools:ignore="OnClick"
@@ -186,6 +187,51 @@
                 android:layout_weight="1"
                 android:onClick="SelectItem"
                 android:text="Nafas pendek atau tidak normal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="400dp" />
+            <CheckBox
+                android:id="@+id/CBGP11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SelectItem"
+                android:text="Suara serak"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="400dp" />
+            <CheckBox
+                android:id="@+id/CBGP12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SelectItem"
+                android:text="Suara kasar saat bernafas"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="400dp" />
+            <CheckBox
+                android:id="@+id/CBGP13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SelectItem"
+                android:text="Seringnya merasa lelah (kronis)"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="400dp" />
+            <CheckBox
+                android:id="@+id/CBGP14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SelectItem"
+                android:text="Sakit kepala, nyeri tulang, sakit yang menyertainya"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="400dp" />
+            <CheckBox
+                android:id="@+id/CBGP15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SelectItem"
+                android:text="Terjadi rasa keretakan tulang bukan karena kecelakaan"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="400dp" />
         </LinearLayout>

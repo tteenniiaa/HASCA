@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/ednama"
         android:layout_width="348dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.136" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edumur"
         android:layout_width="348dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -51,10 +51,10 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintTop_toBottomOf="@+id/ednama"
+        app:layout_constraintVertical_bias="0.0" />
 
     <LinearLayout
         android:id="@+id/btnselanjutnya"
