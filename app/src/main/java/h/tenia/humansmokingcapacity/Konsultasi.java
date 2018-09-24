@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.LinearLayout;
+
+import h.tenia.humansmokingcapacity.accountcreation.Inputgejala;
 
 public class Konsultasi extends Activity {
 
@@ -21,6 +24,7 @@ public class Konsultasi extends Activity {
 
                                           Intent z = new Intent (getApplicationContext(), Inputgejala.class);
                                           startActivity(z);
+                                          finish();
                                       }
                                   }
         );

@@ -22,7 +22,7 @@
         <activity android:name=".Konsultasi" />
         <activity android:name=".Tentang" />
         <activity android:name=".Hasil" />
-        <activity android:name=".Inputgejala"></activity>
+        <activity android:name=".accountcreation.Inputgejala" />
     </application>
 
 </manifest>

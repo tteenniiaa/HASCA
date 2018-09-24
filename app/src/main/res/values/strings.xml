@@ -3,6 +3,78 @@
     <string name="periksa">Periksa</string>
     <string name="title_message">Diagnosa Gejala</string>
 
+    <string name="action_settings">Settings</string>
+    <string name="input_gejala">Input Gejala</string>
+    <string name="dialog_title">Silahkan memasukan gejala</string>
+    <string name="Ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+    <string name="silahkan_input_terlebih_dahulu_gejala_yang_anda_rasakan">Silahkan Input Terlebih Dahulu Gejala yang Anda Rasakan</string>
+    <string name="input_gejalabt">input gejala</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="konsultasii">konsultasi</string>
+    <string name="selanjutnya">selanjutnya</string>
+    <string name="umur">Umur</string>
+    <string name="nama">Nama</string>
 
+    <string-array name="gejala">
+        <item>Batuk terus menerus atau semakin parah</item>
+        <item>Batuk lebih dari 2 minggu</item>
+        <item>Nyeri dada, bahu, punggung yang tidak berhubungan nyeri akibat batuk</item>
+        <item>Perubahan warna pada dahak</item>
+        <item>Meningkatnya jumlah dahak</item>
+        <item>Dahak Berdarah</item>
+        <item>Bunyi menciut-ciut saat bernafas bukan pada penderita asma</item>
+        <item>Radang yang kambuh</item>
+        <item>Sulit nafas/ sesak</item>
+        <item>Nafas pendek atau tidak normal</item>
+
+        <item>Suara serak</item>
+        <item>Suara kasar saat bernafas</item>
+        <item>Seringnya merasa lelah (kronis)</item>
+        <item>Sakit kepala, nyeri tulang, sakit yang menyertainya</item>
+        <item>Terjadi rasa keretakan tulang bukan karena kecelakaan</item>
+        <item>Adanya lebab maupun bengkak pada leher/wajah</item>
+        <item>Menurunnya berat badan yang tidak diketahui penyebabnya</item>
+        <item>Mulai kehilangan kestabilan saat berjalan</item>
+        <item>Seringnya lupa</item>
+        <item>Kulit Kusam</item>
+
+        <item>Indra Penciuman dan perasa yang menurun</item>21
+        <item>Jam tidur yang berantakan</item>
+        <item>Seringnya terkena flu</item>
+        <item>Adanya bercak warna putih pada mulut</item>
+        <item>Kerongkongan terasa perih</item>
+        <item>Kesulitan Menelan</item>
+        <item>Demam Tinggi dan Menggigil</item>
+        <item>Dada sesak, nyeri, dan berat</item>
+        <item>Detak jantung cepat</item>
+        <item>Mudah Dehidrasi/ nafsu makan menurun</item>
+
+        <item>Denyut jantung tidak stabil (Cepat/Lamat)</item>31
+        <item>Tekanan darah tidak stabil</item>
+        <item>Pembekuan aliran darah di beberapa tubuh</item>
+        <item>Sering tersengal-sengal</item>
+        <item>Keluar Lendir dari hidung terus menerus</item>
+        <item>Kesulitan untuk menganalisa informasi dengan cepat</item>
+        <item>Kulit mudah iritasi dan terluka</item>
+        <item>Mudah terkena penyakit gatal</item>
+        <item>Timbul bercak tidak rasa seperti pigmentasi</item>
+        <item>Sakit kepala yang tiba-tiba</item>
+
+        <item>Seringnya buang gas</item>41
+        <item>Nyeri dan sering mual pada bagian sekitar perut</item>
+        <item>Ketajaman penglihatan menurun</item>
+        <item>Sering mengantuk</item>
+        <item>Gigi berwarna kuning, sering ngilu atau sensitif</item>
+        <item>Ukuran Payudara yang semakin mengecil</item>
+        <item>Keluar cairan bening atau darah dari puting payudara</item>
+        <item>Puting payudara masuk kedalam</item>
+        <item>Pembengkakan kemerahan pada payurdara</item>
+        <item>Terjadi keputihan yang berlebihan dan berbau</item>
+
+        <item>Nyeri ketika buang air kecil</item>
+        <item>Sering bunag air kecil / sulit buang air kecil</item>
+    </string-array>
 
 </resources>

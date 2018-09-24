@@ -1,10 +1,13 @@
 package h.tenia.humansmokingcapacity;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.widget.TextView;
 
 public class Hasil extends Activity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
