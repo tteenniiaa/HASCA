@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="h.tenia.humansmokingcapacity.Gejala">
+    tools:context="h.tenia.humansmokingcapacity.Gejala"
+    android:background="@drawable/polos">
 
     <TextView
         android:id="@+id/textView"
@@ -29,7 +30,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="92dp"
         android:layout_weight="1"
-        android:text="Button 1"
+        android:text="Kanker Paru-paru"
         app:layout_constraintEnd_toStartOf="@+id/hslBtn7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -44,7 +45,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 2"
+        android:text="Kanker Kandung Kemih"
         app:layout_constraintEnd_toStartOf="@+id/hslBtn8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn1" />
@@ -57,7 +58,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 3"
+        android:text="Kanker Payudara"
         app:layout_constraintEnd_toStartOf="@+id/hslBtn9"
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +74,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 4"
+        android:text="Kanker Serviks"
         app:layout_constraintEnd_toStartOf="@+id/hslBtn12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn3"
@@ -88,13 +89,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 5"
+        android:text="Kanker Kerongkongan"
         app:layout_constraintEnd_toStartOf="@+id/hslBtn10"
-        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn4"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/hslBtn4" />
 
     <Button
         android:id="@+id/hslBtn6"
@@ -104,12 +102,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="24dp"
         android:layout_weight="1"
-        android:text="Button 6"
+        android:text="Kanker Pencernaan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/hslBtn11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn5"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <Button
         android:id="@+id/hslBtn7"
@@ -118,7 +116,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="92dp"
         android:layout_weight="1"
-        android:text="Button 7"
+        android:text="Kanker Ginjal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginRight="16dp" />
@@ -130,7 +128,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 8"
+        android:text="Kanker Mulut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn7"
         android:layout_marginRight="16dp" />
@@ -142,7 +140,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="17dp"
         android:layout_weight="1"
-        android:text="Button 9"
+        android:text="Serangan Jantung"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn8" />
 
@@ -153,7 +151,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 10"
+        android:text="Hipertensi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn12"
         android:layout_marginRight="16dp" />
@@ -163,16 +161,13 @@
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_weight="1"
-        android:text="Button 10"
+        android:text="Impotensi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/hslBtn6"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn10"
-        app:layout_constraintVertical_bias="0.209" />
+        app:layout_constraintVertical_bias="0.133" />
 
     <Button
         android:id="@+id/hslBtn12"
@@ -181,21 +176,22 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="Button 10"
+        android:text="Paru Obstruksi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hslBtn9"
         android:layout_marginRight="16dp" />
 
     <Button
-        android:id="@+id/kembaligejala"
+        android:id="@+id/btnmenu"
         android:layout_width="151dp"
-        android:layout_height="34dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="44dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="Kembali"
+        android:text="Menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

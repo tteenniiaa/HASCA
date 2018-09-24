@@ -33,7 +33,7 @@ public class Mainmenu extends Activity {
             public void onClick(View argo) {
                 //TODO Auto-generated methot stub
 
-                Intent j = new Intent (getApplicationContext(), Konsultasi.class);
+                Intent j = new Intent (getApplicationContext(), Gejala.class);
                 startActivity(j);
             }
         }
