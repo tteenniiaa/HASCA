@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="h.tenia.humansmokingcapacity.Gejala">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="250dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPenyakit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup01"
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/gejala1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/gejala52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtHasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
