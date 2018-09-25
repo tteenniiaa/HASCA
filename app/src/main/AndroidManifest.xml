@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="h.tenia.humansmokingcapacity">
+          package="h.tenia.humansmokingcapacity">
 
     <application
         android:allowBackup="true"
@@ -11,23 +11,41 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Mainmenu" />
-        <activity android:name=".Konsultasi" />
-        <activity android:name=".Tentang" />
-        <activity android:name=".Hasil" />
-        <activity android:name=".accountcreation.Inputgejala" />
-        <activity android:name=".myDatabase" />
-        <activity android:name=".Gejala" />
-        <activity android:name=".Penyakit1" />
-        <activity android:name=".Penyakit2" />
-        <activity android:name=".Penyakit3" />
+        <activity
+            android:name=".Mainmenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Konsultasi"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Tentang"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Hasil"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".accountcreation.Inputgejala"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Gejala"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Penyakit1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Penyakit2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Penyakit3"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
