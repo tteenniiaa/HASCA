@@ -1,197 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="h.tenia.humansmokingcapacity.Gejala"
-    android:background="@drawable/polos">
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@drawable/polos"
+                                             tools:context="h.tenia.humansmokingcapacity.Gejala"
+                                             tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="cursive"
         android:text="Hasil Diagnosa"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <Button
-        android:id="@+id/hslBtn1"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="92dp"
-        android:layout_weight="1"
-        android:text="Kanker Paru-paru"
-        app:layout_constraintEnd_toStartOf="@+id/hslBtn7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="16dp" />
-
-    <Button
-        android:id="@+id/hslBtn2"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Kanker Kandung Kemih"
-        app:layout_constraintEnd_toStartOf="@+id/hslBtn8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn1" />
-
-    <Button
-        android:id="@+id/hslBtn3"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Kanker Payudara"
-        app:layout_constraintEnd_toStartOf="@+id/hslBtn9"
-        app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn2"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="16dp" />
-
-    <Button
-        android:id="@+id/hslBtn4"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Kanker Serviks"
-        app:layout_constraintEnd_toStartOf="@+id/hslBtn12"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn3"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="16dp" />
-
-    <Button
-        android:id="@+id/hslBtn5"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Kanker Kerongkongan"
-        app:layout_constraintEnd_toStartOf="@+id/hslBtn10"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn4" />
-
-    <Button
-        android:id="@+id/hslBtn6"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="24dp"
-        android:layout_weight="1"
-        android:text="Kanker Pencernaan"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/hslBtn11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn5"
-        app:layout_constraintVertical_bias="0.139" />
-
-    <Button
-        android:id="@+id/hslBtn7"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="92dp"
-        android:layout_weight="1"
-        android:text="Kanker Ginjal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="16dp" />
-
-    <Button
-        android:id="@+id/hslBtn8"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Kanker Mulut"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn7"
-        android:layout_marginRight="16dp" />
-
-    <Button
-        android:id="@+id/hslBtn9"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="17dp"
-        android:layout_weight="1"
-        android:text="Serangan Jantung"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn8" />
-
-    <Button
-        android:id="@+id/hslBtn10"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Hipertensi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn12"
-        android:layout_marginRight="16dp" />
-
-    <Button
-        android:id="@+id/hslBtn11"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_weight="1"
-        android:text="Impotensi"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn10"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
-    <Button
-        android:id="@+id/hslBtn12"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Paru Obstruksi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hslBtn9"
-        android:layout_marginRight="16dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnmenu"
-        android:layout_width="151dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="44dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Menu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.889"
-        app:layout_constraintStart_toStartOf="parent" />
+            <Button
+                android:id="@+id/hslBtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Paru-paru"
+                tools:layout_editor_absoluteY="92dp"/>
+
+            <Button
+                android:id="@+id/hslBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Kandung Kemih"
+                tools:layout_editor_absoluteY="156dp"/>
+
+            <Button
+                android:id="@+id/hslBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Payudara"
+                tools:layout_editor_absoluteY="228dp"/>
+
+            <Button
+                android:id="@+id/hslBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Serviks"
+                tools:layout_editor_absoluteY="292dp"/>
+
+            <Button
+                android:id="@+id/hslBtn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Kerongkongan"
+                tools:layout_editor_absoluteY="356dp"/>
+
+            <Button
+                android:id="@+id/hslBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Pencernaan"
+                tools:layout_editor_absoluteY="410dp"/>
+
+            <Button
+                android:id="@+id/hslBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Ginjal"/>
+
+            <Button
+                android:id="@+id/hslBtn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kanker Mulut"/>
+
+            <Button
+                android:id="@+id/hslBtn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Serangan Jantung"/>
+
+            <Button
+                android:id="@+id/hslBtn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hipertensi"/>
+
+            <Button
+                android:id="@+id/hslBtn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Impotensi"/>
+
+            <Button
+                android:id="@+id/hslBtn12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Paru Obstruksi"/>
+
+            <Button
+                android:id="@+id/btnmenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Menu"/>
+
+        </LinearLayout>
+    </ScrollView>
+
 
 </android.support.constraint.ConstraintLayout>

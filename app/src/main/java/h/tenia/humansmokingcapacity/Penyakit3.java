@@ -1,20 +1,18 @@
 package h.tenia.humansmokingcapacity;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
 
-public class Penyakit3 extends AppCompatActivity {
+public class Penyakit3 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_penyakit3);
-
-        final LinearLayout btnselanjutnya = (LinearLayout) findViewById(R.id.btnselanjutnya);
-        final LinearLayout btnsebelumnya = (LinearLayout) findViewById(R.id.btnsebelumnya);
+        final View btnselanjutnya = findViewById(R.id.btnselanjutnya);
+        final View btnsebelumnya = findViewById(R.id.btnsebelumnya);
 
         btnselanjutnya.setOnClickListener(new View.OnClickListener() {
                                               @Override

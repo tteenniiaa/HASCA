@@ -13,8 +13,8 @@ public class Penyakit2 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_penyakit2);
-        final LinearLayout btnselanjutnya = (LinearLayout) findViewById(R.id.btnselanjutnya);
-        final LinearLayout btnsebelumnya = (LinearLayout) findViewById(R.id.btnsebelumnya);
+        final View btnselanjutnya = findViewById(R.id.btnselanjutnya);
+        final View btnsebelumnya = findViewById(R.id.btnsebelumnya);
 
         btnselanjutnya.setOnClickListener(new View.OnClickListener() {
                                               @Override
