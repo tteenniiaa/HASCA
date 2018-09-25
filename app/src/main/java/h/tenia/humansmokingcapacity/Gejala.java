@@ -3,6 +3,7 @@ package h.tenia.humansmokingcapacity;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-public class Gejala extends Activity implements View.OnClickListener {
+public class Gejala extends AppCompatActivity implements View.OnClickListener {
     Cursor model = null;
     myDatabase helper = null;
     Button cmdS1, cmdS2, cmdS3, cmdS4, cmdS5, cmdS6, cmdS7, cmdS8, cmdS9, cmdS10, cmdS11, cmdS12;
@@ -90,7 +91,7 @@ public class Gejala extends Activity implements View.OnClickListener {
             RadioButton32, RadioButton33, RadioButton34, RadioButton35, RadioButton36, RadioButton37, RadioButton38, RadioButton39,
             RadioButton40, RadioButton41, RadioButton42, RadioButton43, RadioButton44, RadioButton45, RadioButton46, RadioButton47,
             RadioButton48, RadioButton49, RadioButton50, RadioButton51, RadioButton52;
-    Button cmdPilih;
+    View cmdPilih;
     CheckBox ckPilih1, ckPilih2, ckPilih3, ckPilih4, ckPilih5, ckPilih6, ckPilih7, ckPilih8, ckPilih9, ckPilih10,
             ckPilih11, ckPilih12, ckPilih13, ckPilih14, ckPilih15, ckPilih16, ckPilih17, ckPilih18, ckPilih19, ckPilih20,
             ckPilih21, ckPilih22, ckPilih23, ckPilih24, ckPilih25, ckPilih26, ckPilih27, ckPilih28, ckPilih29, ckPilih30,
@@ -233,8 +234,7 @@ public class Gejala extends Activity implements View.OnClickListener {
         ckPilih52.setText("Sering bunag air kecil / sulit buang air kecil");
 
 
-        cmdPilih = (Button) findViewById(R.id.btnPenyakit);
-        cmdPilih.setText("Pilih Gejala Penyakit :");
+        cmdPilih = findViewById(R.id.btnPenyakit);
         cmdPilih.setOnClickListener(this); //new myproses()
 
     }

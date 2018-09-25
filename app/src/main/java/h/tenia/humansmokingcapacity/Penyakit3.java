@@ -3,9 +3,10 @@ package h.tenia.humansmokingcapacity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class Penyakit3 extends Activity {
+public class Penyakit3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

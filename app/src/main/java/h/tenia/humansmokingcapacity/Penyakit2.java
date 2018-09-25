@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class Penyakit2 extends Activity {
+public class Penyakit2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

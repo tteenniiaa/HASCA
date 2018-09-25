@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 import h.tenia.humansmokingcapacity.accountcreation.Inputgejala;
 
-public class Penyakit1 extends Activity {
+public class Penyakit1 extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

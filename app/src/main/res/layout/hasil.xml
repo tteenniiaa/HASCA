@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto"
-                                             xmlns:tools="http://schemas.android.com/tools"
-                                             android:layout_width="match_parent"
-                                             android:layout_height="match_parent"
-                                             android:background="@drawable/polos"
-                                             tools:context="h.tenia.humansmokingcapacity.Gejala"
-                                             tools:layout_editor_absoluteY="81dp">
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="h.tenia.humansmokingcapacity.Gejala">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="cursive"
-        android:text="Hasil Diagnosa"
-        android:textSize="30sp"
+        android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Diagnosa"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.2"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_partial_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,98 +55,93 @@
                 android:id="@+id/hslBtn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Kanker Paru-paru"
-                tools:layout_editor_absoluteY="92dp"/>
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Kanker Kandung Kemih"
-                tools:layout_editor_absoluteY="156dp"/>
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Kanker Payudara"
-                tools:layout_editor_absoluteY="228dp"/>
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Kanker Serviks"
-                tools:layout_editor_absoluteY="292dp"/>
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Kanker Kerongkongan"
-                tools:layout_editor_absoluteY="356dp"/>
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Kanker Pencernaan"
-                tools:layout_editor_absoluteY="410dp"/>
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Kanker Ginjal"/>
+                android:text="Kanker Ginjal"
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Kanker Mulut"/>
+                android:text="Kanker Mulut"
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Serangan Jantung"/>
+                android:text="Serangan Jantung"
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Hipertensi"/>
+                android:text="Hipertensi"
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Impotensi"/>
+                android:text="Impotensi"
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/hslBtn12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Paru Obstruksi"/>
+                android:text="Paru Obstruksi"
+                android:background="@drawable/bg_item"/>
 
             <Button
                 android:id="@+id/btnmenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Menu"/>
+                android:text="Menu"
+                android:background="@drawable/bg_item"/>
 
         </LinearLayout>
     </ScrollView>
