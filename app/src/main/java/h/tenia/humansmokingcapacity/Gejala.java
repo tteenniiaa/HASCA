@@ -693,9 +693,12 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Kanker Pencernaan (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Usus besar merupakan bagian terakhir dari sistem pencernaan, yang terdiri dari usus besar dan rektum. " +
+                    "Kadang-kadang, terjadi pertumbuhan sel yang tidak normal di dinding usus, polip, bisul atau massa jaringan " +
+                    "lainnya. Sebagian besar dari pertumbuhan sel yang tidak normal ini bersifat jinak, namun ada beberapa polip yang " +
+                    "bisa berkembang menjadi tumor ganas dan menjadi kanker usus atau kanker pencernaan ");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("Kanker Kerongkongan merupakan penyakit Golongan II (Tingkat sedang), maka solusi untuk human " +
+            t3.setText("Kanker Pencernaan merupakan penyakit Golongan II (Tingkat sedang), maka solusi untuk human " +
                     "smoking capacity pada gejala penyakit ini adalah :\n" +
                     "Umur  < 18 Tahun = 3 rokok perhari\n" +
                     "Umur 19-28 Tahun = 4 rokok perhari\n" +
@@ -714,9 +717,18 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Kanker Ginjal (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Kanker ginjal adalah jenis kanker yang awalnya muncul di ginjal. Manusia memiliki dua buah " +
+                    "ginjal yang terletak di kedua sisi punggung bawah, di bawah tulang rusuk. Ginjal adalah organ di " +
+                    "dalam tubuh yang berfungsi menyaring kotoran dalam darah dan membuangnya dalam bentuk urine. " +
+                    "Selain itu, ginjal juga memproduksi hormon renin yang berfungsi mengendalikan tekanan darah dan hormon " +
+                    "erythropoietin yang berfungsi dalam pembentukan sel darah merah.");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("lalala fortune ookieee");
+            t3.setText("Kanker Ginjal merupakan penyakit Golongan II (Tingkat sedang), maka solusi untuk human " +
+                    "smoking capacity pada gejala penyakit ini adalah :\n" +
+                    "Umur  < 18 Tahun = 3 rokok perhari\n" +
+                    "Umur 19-28 Tahun = 4 rokok perhari\n" +
+                    "Umur 28-38 Tahun = 5 rokok perhari\n" +
+                    "Umur 39-49 Tahun = 7 rokok perhari\n");
         }
     }
 
@@ -730,9 +742,17 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Kanker Mulut (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Kanker mulut adalah kanker yang tumbuh dan berkembang di dalam mulut. Misalnya pada bibir, lidah, gusi, " +
+                    "dinding mulut, serta langit-langit mulut. Kanker ini dapat menyebar secara langsung ke jaringan-jaringan di " +
+                    "sekitar mulut atau melalui kelenjar getah bening. Kanker mulut termasuk jenis kanker yang jarang terjadi, " +
+                    "yaitu hanya sekitar 2 persen dari seluruh kasus kanker yang ada.");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("lalala fortune ookieee");
+            t3.setText("Kanker Mulut merupakan penyakit Golongan I (Tingkat tinggi), maka solusi " +
+                    "untuk human smoking capacity pada gejala penyakit ini adalah :\n" +
+                    "Umur  > 18 Tahun = 2 rokok perhari\n" +
+                    "Umur 19-28 Tahun = 3 rokok perhari\n" +
+                    "Umur 29-37 Tahun = 4 rokok perhari\n" +
+                    "Umur 38-46 Tahun = 5 rokok perhari\n");
         }
     }
 
@@ -746,9 +766,17 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Serangan Jantung (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Serangan jantung adalah kondisi yang terjadi ketika pasokan darah menuju ke jantung terhambat. Ini adalah" +
+                    " kondisi medis darurat yang biasanya disebabkan oleh penggumpalan darah atau penumpukan lemak, kolesterol, " +
+                    "dan unsur lainnya. Gangguan aliran darah ke jantung tersebut bisa merusak atau menghancurkan otot jantung dan" +
+                    " bisa berakibat fatal. Dalam dunia medis, serangan jantung disebut juga sebagai infark miokard.");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("lalala fortune ookieee");
+            t3.setText("Serangan Jantung merupakan penyakit Golongan I (Tingkat tinggi), maka solusi " +
+                    "untuk human smoking capacity pada gejala penyakit ini adalah :\n" +
+                    "Umur  > 18 Tahun = 2 rokok perhari\n" +
+                    "Umur 19-28 Tahun = 3 rokok perhari\n" +
+                    "Umur 29-37 Tahun = 4 rokok perhari\n" +
+                    "Umur 38-46 Tahun = 5 rokok perhari\n");
         }
     }
 
@@ -762,9 +790,16 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Hipertensi (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Hipertensi merupakan salah satu faktor resiko utama yang menyebabkan serangan jantung dan stroke, yang " +
+                    "menyerang sebagian besar penduduk dunia. Hipertensi adalah suatu keadaan dimana dijumpai tekanan darah 140/90 mmHg " +
+                    "atau lebih untuk usia 13 – 50 tahun dan tekanan darah mencapai 160/95 mmHg untuk usia di atas 50 tahun");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("lalala fortune ookieee");
+            t3.setText("Hipertensi merupakan penyakit Golongan III (Tingkat Rendah), maka solusi untuk human " +
+                    "smoking capacity pada gejala penyakit ini adalah :\n" +
+                            "Umur  < 18 Tahun = 4 rokok perhari\n" +
+                            "Umur 19-28 Tahun = 5 rokok perhari\n" +
+                            "Umur 28-38 Tahun = 7 rokok perhari\n" +
+                            "Umur 39-49 Tahun = 9 rokok perhari\n");
         }
     }
 
@@ -780,9 +815,18 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Impotensi (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Disfungsi ereksi (impotensi) yaitu kegagalan penis dalam mencapai ereksi yang cukup untuk melakukan seksual " +
+                    "intercourse (coitus); ejakulasi prematur adalah ejakulasi tak terkontrol sebelum atau segera setelah masuk vagina, " +
+                    "hal sebaliknya dapat terjadi yaitu ejakulasi lambat dan ejakulasi retograd; infertil adalah kondisi dengan insufisiensi" +
+                    " jumlah sperma atau motilitas tidak adekuat sehingga gagal membuahi ovum. Pasien dapat menderita satu atau lebih disfungsi " +
+                    "seksual. ");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("lalala fortune ookieee");
+            t3.setText("Hipertensi merupakan penyakit Golongan III (Tingkat Rendah), maka solusi untuk human " +
+                    "smoking capacity pada gejala penyakit ini adalah :\n" +
+                            "Umur  < 18 Tahun = 4 rokok perhari\n" +
+                            "Umur 19-28 Tahun = 5 rokok perhari\n" +
+                            "Umur 28-38 Tahun = 7 rokok perhari\n" +
+                            "Umur 39-49 Tahun = 9 rokok perhari\n");
         }
     }
 
@@ -797,9 +841,17 @@ public class Gejala extends AppCompatActivity implements View.OnClickListener {
             String pbs = Double.toString(pb);
             t1.setText("Penyakit Paru Obstruksi (" + pbs + "%)");
             TextView t2 = (TextView) findViewById(R.id.txtGejala);
-            t2.setText("Infeksi telinga");
+            t2.setText("Penyakit paru obstruktif kronis (PPOK) adalah penyakit peradangan paru yang berkembang dalam jangka waktu panjang." +
+                    " Penyakit ini menghalangi aliran udara dari paru-paru karena terhalang pembengkakan dan lendir atau dahak, sehingga " +
+                    "penderitanya sulit bernapas. Sebagian besar pederita PPOK adalah orang-orang yang berusia paruh baya dan perokok. " +
+                    "Penderita penyakit ini memiliki risiko untuk mengalami penyakit jantung dan kanker paru-paru.\n");
             TextView t3 = (TextView) findViewById(R.id.txtKeterangan);
-            t3.setText("lalala fortune ookieee");
+            t3.setText("Serangan Jantung merupakan penyakit Golongan I (Tingkat tinggi), maka solusi " +
+                    "untuk human smoking capacity pada gejala penyakit ini adalah :\n" +
+                            "Umur  > 18 Tahun = 2 rokok perhari\n" +
+                            "Umur 19-28 Tahun = 3 rokok perhari\n" +
+                            "Umur 29-37 Tahun = 4 rokok perhari\n" +
+                            "Umur 38-46 Tahun = 5 rokok perhari\n");
         }
     }
 

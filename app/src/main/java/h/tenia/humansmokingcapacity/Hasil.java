@@ -73,5 +73,95 @@ public class Hasil extends AppCompatActivity {
                                        }
                                    }
         );
+        btnHsl4.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p4 = new Intent(getApplicationContext(), Penyakit4.class);
+                                           startActivity(p4);
+                                       }
+                                   }
+        );
+        btnHsl5.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p5 = new Intent(getApplicationContext(), Penyakit5.class);
+                                           startActivity(p5);
+                                       }
+                                   }
+        );
+        btnHsl6.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p6 = new Intent(getApplicationContext(), Penyakit6.class);
+                                           startActivity(p6);
+                                       }
+                                   }
+        );
+        btnHsl7.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p7 = new Intent(getApplicationContext(), Penyakit7.class);
+                                           startActivity(p7);
+                                       }
+                                   }
+        );
+        btnHsl8.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p8 = new Intent(getApplicationContext(), Penyakit8.class);
+                                           startActivity(p8);
+                                       }
+                                   }
+        );
+        btnHsl9.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p9 = new Intent(getApplicationContext(), Penyakit9.class);
+                                           startActivity(p9);
+                                       }
+                                   }
+        );
+        btnHsl10.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View argo) {
+                                           //TODO Auto-generated methot stub
+
+                                           Intent p10 = new Intent(getApplicationContext(), Penyakit10.class);
+                                           startActivity(p10);
+                                       }
+                                   }
+        );
+        btnHsl11.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View argo) {
+                                            //TODO Auto-generated methot stub
+
+                                            Intent p11 = new Intent(getApplicationContext(), Penyakit11.class);
+                                            startActivity(p11);
+                                        }
+                                    }
+        );
+        btnHsl12.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View argo) {
+                                            //TODO Auto-generated methot stub
+
+                                            Intent p12 = new Intent(getApplicationContext(), Penyakit12.class);
+                                            startActivity(p12);
+                                        }
+                                    }
+        );
     }
 }

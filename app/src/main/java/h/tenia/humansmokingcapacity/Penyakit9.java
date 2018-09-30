@@ -1,17 +1,16 @@
 package h.tenia.humansmokingcapacity;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 
-public class Penyakit3 extends AppCompatActivity {
+public class Penyakit9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_penyakit3);
+        setContentView(R.layout.activity_penyakit9);
         final View btnselanjutnya = findViewById(R.id.btnselanjutnya);
         final View btnsebelumnya = findViewById(R.id.btnsebelumnya);
 
@@ -20,7 +19,7 @@ public class Penyakit3 extends AppCompatActivity {
                                               public void onClick(View argo) {
                                                   //TODO Auto-generated methot stub
 
-                                                  Intent next = new Intent (getApplicationContext(), Penyakit4.class);
+                                                  Intent next = new Intent (getApplicationContext(), Penyakit10.class);
                                                   startActivity(next);
                                                   finish();
                                               }
@@ -31,7 +30,7 @@ public class Penyakit3 extends AppCompatActivity {
                                              public void onClick(View argo) {
                                                  //TODO Auto-generated methot stub
 
-                                                 Intent prev = new Intent (getApplicationContext(), Penyakit2.class);
+                                                 Intent prev = new Intent (getApplicationContext(), Penyakit8.class);
                                                  startActivity(prev);
                                                  finish();
                                              }
